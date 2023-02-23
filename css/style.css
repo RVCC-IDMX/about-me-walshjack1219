@@ -53,3 +53,13 @@ footer{
     background-color:#2394EB ;
     padding: 15px;
 }
+
+#gallary{
+
+    text-align: center;
+}
+
+#gallary img{
+
+    max-width: 100px;
+}
