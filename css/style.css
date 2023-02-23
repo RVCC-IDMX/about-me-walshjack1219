@@ -1,6 +1,6 @@
 body{
     font-family: "tilt warp";
-    background-color: #F0600E;
+    background-color: #2394EB;
     color:#A0CFE6;
 }
 
@@ -16,7 +16,7 @@ header{
 #hero{
     font-family: "tilt neon";
     color:#A0CFE6;
-    background-color:#EB8D51 ;
+    background-color:#F0600E;
     text-align: center;
     padding: 15px;
 }
@@ -29,21 +29,13 @@ header{
 #bio{
     font-family: "tilt neon";
     color:#F2F3E9;
-    background-color:#EB8D51 ;
+    background-color:#F0600E ;
     padding: 15px;
-}
-
-#list{
-
-    font-family: "tilt neon";
-    color:#F2F3E9;
-    background-color:#EB8D51 ;
-    padding: 15px;
-
 }
 
 #song{
-
+    background-color: #F0600E;
+    padding: 15px;
     text-align: center;
 }
 
@@ -51,6 +43,13 @@ footer{
 
     font-family: "tilt neon";
     color:#F2F3E9;
-    background-color:#EB8D51 ;
+    background-color:#F0600E ;
+    padding: 15px;
+}
+
+#hobbies{
+    font-family: "tilt neon";
+    color:#F2F3E9;
+    background-color:#2394EB ;
     padding: 15px;
 }
