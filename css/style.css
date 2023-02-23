@@ -1,0 +1,56 @@
+body{
+    font-family: "tilt warp";
+    background-color: #F0600E;
+    color:#A0CFE6;
+}
+
+h1, h2{
+    font-family: "tilt warp";
+    font-size: 40pt;
+}
+
+header{
+    text-align: center;
+}
+
+#hero{
+    font-family: "tilt neon";
+    color:#A0CFE6;
+    background-color:#EB8D51 ;
+    text-align: center;
+    padding: 15px;
+}
+
+#hero img{
+
+    width:300px
+}
+
+#bio{
+    font-family: "tilt neon";
+    color:#F2F3E9;
+    background-color:#EB8D51 ;
+    padding: 15px;
+}
+
+#list{
+
+    font-family: "tilt neon";
+    color:#F2F3E9;
+    background-color:#EB8D51 ;
+    padding: 15px;
+
+}
+
+#song{
+
+    text-align: center;
+}
+
+footer{
+
+    font-family: "tilt neon";
+    color:#F2F3E9;
+    background-color:#EB8D51 ;
+    padding: 15px;
+}
