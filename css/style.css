@@ -52,6 +52,9 @@ footer{
     color:#F2F3E9;
     background-color:#2394EB ;
     padding: 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 #gallery{
