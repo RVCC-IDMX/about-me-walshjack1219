@@ -69,6 +69,10 @@ footer{
     max-width: 100px;
 }
 
+figure img{
+    width:100%;
+}
+
 @media screen and (min-width: 60em){
     figure{
 
@@ -83,6 +87,6 @@ footer{
         align-items: center;
         font-size: 2rem;
         margin-left: 1rem;
-        
+
     }
 }
