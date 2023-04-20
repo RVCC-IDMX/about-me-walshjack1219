@@ -1,10 +1,11 @@
 body {
     font-family: "tilt warp";
     background-color: #2394EB;
-    color:#A0CFE6;
+    color: #A0CFE6;
 }
 
-h1, h2 {
+h1,
+h2 {
     font-family: "tilt warp";
     font-size: 40pt;
 }
@@ -15,23 +16,23 @@ header {
 
 #hero {
     font-family: "tilt neon";
-    color:#A0CFE6;
-    background-color:#F0600E;
+    color: #A0CFE6;
+    background-color: #F0600E;
     text-align: center;
     padding: 15px;
 }
 
-#hero img { 
+#hero img {
 
-    width:300px
+    width: 300px
 }
 
 #bio {
     font-family: "tilt neon";
-    color:#F2F3E9;
-    background-color:#F0600E ;
+    color: #F2F3E9;
+    background-color: #F0600E;
     padding: 15px;
-   
+
 }
 
 #song {
@@ -43,15 +44,15 @@ header {
 footer {
 
     font-family: "tilt neon";
-    color:#F2F3E9;
-    background-color:#F0600E ;
+    color: #F2F3E9;
+    background-color: #F0600E;
     padding: 15px;
 }
 
 #hobbies {
     font-family: "tilt neon";
-    color:#F2F3E9;
-    background-color:#2394EB ;
+    color: #F2F3E9;
+    background-color: #2394EB;
     padding: 15px;
     display: flex;
     flex-direction: column;
@@ -61,7 +62,7 @@ footer {
 #gallery {
 
     text-align: center;
-    
+
 }
 
 #gallery img {
@@ -71,13 +72,13 @@ footer {
 
 @media screen and (min-width: 60em) {
     figure {
-        display:grid;
+        display: grid;
         grid-template-columns: 2fr 1fr;
     }
 
     figcaption {
 
-        display:flex;
+        display: flex;
         justify-content: center;
         align-items: center;
         font-size: 2rem;
@@ -90,7 +91,7 @@ footer {
 
     #gallery {
         display: grid;
-        grid-template-columns: 1fr 1fr 1fr ;
+        grid-template-columns: 1fr 1fr 1fr;
     }
 
 
@@ -98,21 +99,25 @@ footer {
         grid-column: 1/-1;
     }
 
-    hr{
+    hr {
         display: none;
     }
 
     figure {
-        display:block;
+        display: block;
     }
 
 }
 
-#lit div{
-    max-width:100%;
+#lit div {
+    max-width: 100%;
     columns: 40rem;
 }
 
-#lit h2{
+#lit h2 {
+    text-align: center;
+}
+
+#video{
     text-align: center;
 }
