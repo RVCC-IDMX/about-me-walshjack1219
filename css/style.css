@@ -121,3 +121,7 @@ footer {
 #video{
     text-align: center;
 }
+
+#formElements{
+    display: grid;
+}
