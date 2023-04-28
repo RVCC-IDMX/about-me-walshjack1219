@@ -1,13 +1,14 @@
 body {
     font-family: "tilt warp";
-    background-color: #2394EB;
-    color: #A0CFE6;
+    background-color: #A0CFE6;
+    color:  #2394EB;
+    border: 25px solid #F0600E;
 }
 
 h1,
 h2 {
     font-family: "tilt warp";
-    font-size: 40pt;
+    font-size: 5em;
 }
 
 header {
@@ -17,7 +18,7 @@ header {
 #hero {
     font-family: "tilt neon";
     color: #A0CFE6;
-    background-color: #F0600E;
+    background-color: #2394EB;
     text-align: center;
     padding: 15px;
 }
@@ -30,13 +31,13 @@ header {
 #bio {
     font-family: "tilt neon";
     color: #F2F3E9;
-    background-color: #F0600E;
+    background-color: #2394EB ;
     padding: 15px;
 
 }
 
 #song {
-    background-color: #F0600E;
+    background-color: #A0CFE6;
     padding: 15px;
     text-align: center;
 }
@@ -119,6 +120,7 @@ footer {
 }
 
 #video{
+    padding-top: 5em;
     text-align: center;
 }
 
@@ -173,3 +175,4 @@ legend{
     justify-self: center;
     font-size: 2rem;
 }
+
