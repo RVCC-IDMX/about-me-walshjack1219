@@ -46,14 +46,14 @@ footer {
 
     font-family: "tilt neon";
     color: #F2F3E9;
-    background-color: #F0600E;
+    background-color: #333;
     padding: 15px;
 }
 
 #hobbies {
     font-family: "tilt neon";
     color: #F2F3E9;
-    background-color: #2394EB;
+    background-color: #333;
     padding: 15px;
     display: flex;
     flex-direction: column;
@@ -142,13 +142,13 @@ footer {
 }
 
 fieldset{
-    border: 5px solid #F0600E;
+    border: 5px solid #333;
     margin-top: 1em;
     margin-bottom: 1em;
 }
 
 legend{
-    background-color: #F0600E;
+    background-color: #333;
     padding: .5em;
 }
 
@@ -168,7 +168,7 @@ legend{
 }
 
 #contact button{
-    background-color: #F0600E;
+    background-color: #333;
     color: #A0CFE6;
     border: 1px solid #2394EB;
     max-width: 400px;
@@ -177,3 +177,22 @@ legend{
     font-size: 2rem;
 }
 
+body{
+    border: 8px solid #333;
+}
+
+#iWant{
+    font-size: 2em;
+    font-family: "tilt warp";
+}
+
+#bio{
+    text-align: center;
+    padding-bottom: 3em;
+}
+
+#bio p{
+    padding-left: 4em;
+    padding-right: 4em;
+   
+}

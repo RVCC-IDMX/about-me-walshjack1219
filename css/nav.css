@@ -42,12 +42,13 @@ main{
 }
 
 .logo img{
-    height: 5vw;
-    width: 5vw;
+    height: 7vw;
+    width: 7vw;
 }
 
 .logo h1{
     font-size: 2em;
+    padding-left: 5px;
 }
 
 /* navigation list */
@@ -106,4 +107,5 @@ such that no text wraps
         display: flex;
         justify-content: space-between;
     }
+
 }
