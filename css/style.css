@@ -113,6 +113,7 @@ footer {
 #lit div {
     max-width: 100%;
     columns: 40rem;
+    padding: .5em;
 }
 
 #lit h2 {
