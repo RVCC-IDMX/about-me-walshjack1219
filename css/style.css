@@ -1,6 +1,6 @@
 body {
     font-family: "tilt warp";
-    background-color: #A0CFE6;
+    background-color: #333;
     color:  #2394EB;
 ;
 }
@@ -17,8 +17,8 @@ header {
 
 #hero {
     font-family: "tilt neon";
-    color: #A0CFE6;
-    background-color: #2394EB;
+    color: whitesmoke;
+    background-color: #333;
     text-align: center;
     padding: 15px;
 }
@@ -30,14 +30,15 @@ header {
 
 #bio {
     font-family: "tilt neon";
-    color: #F2F3E9;
+    color: whitesmoke;
     background-color: #2394EB ;
     padding: 15px;
 
 }
 
 #song {
-    background-color: #A0CFE6;
+    background-color: #333;
+    color: whitesmoke;
     padding: 15px;
     text-align: center;
 }
@@ -45,14 +46,14 @@ header {
 footer {
 
     font-family: "tilt neon";
-    color: #F2F3E9;
+    color: whitesmoke;
     background-color: #333;
     padding: 15px;
 }
 
 #hobbies {
     font-family: "tilt neon";
-    color: #F2F3E9;
+    color: whitesmoke;
     background-color: #333;
     padding: 15px;
     display: flex;
@@ -110,10 +111,17 @@ footer {
 
 }
 
+#lit{
+    background-color: #2394EB;
+    color: whitesmoke;
+    padding-top: 3em;
+    padding-bottom: 2em;
+}
+
 #lit div {
     max-width: 100%;
     columns: 40rem;
-    padding: .5em;
+    padding: 1em;
 }
 
 #lit h2 {
@@ -123,7 +131,9 @@ footer {
 #video{
     padding-top: 5em;
     text-align: center;
-
+    background-color: #333;
+    padding-bottom: 7em;
+    color: whitesmoke;
 }
 
 #formHeadder{
