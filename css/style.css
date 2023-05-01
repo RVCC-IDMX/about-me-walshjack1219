@@ -64,6 +64,9 @@ footer {
 #gallery {
 
     text-align: center;
+    background-color: #2394EB;
+    color: whitesmoke;
+    padding-top: 1em;
 
 }
 
@@ -153,7 +156,7 @@ footer {
 }
 
 fieldset{
-    border: 5px solid #333;
+    border: 5px solid #2394EB;
     margin-top: 1em;
     margin-bottom: 1em;
 }
@@ -180,12 +183,18 @@ legend{
 
 #contact button{
     background-color: #333;
-    color: #A0CFE6;
-    border: 1px solid #2394EB;
+    color: whitesmoke;
+    border: 1px solid whitesmoke;
     max-width: 400px;
     width: 50%;
     justify-self: center;
     font-size: 2rem;
+}
+
+#contact button:hover{
+    filter: invert(1);
+    border-radius: 10px;
+    outline: none;
 }
 
 body{
