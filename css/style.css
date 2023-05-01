@@ -123,6 +123,7 @@ footer {
 #video{
     padding-top: 5em;
     text-align: center;
+
 }
 
 #formHeadder{
@@ -195,4 +196,13 @@ body{
     padding-left: 4em;
     padding-right: 4em;
    
+}
+
+#video iframe{
+    max-width: 100%;
+}
+
+#video figcaption{
+    font-size: 1em;
+    padding-top: 1em;
 }
