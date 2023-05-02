@@ -201,6 +201,25 @@ blog styling
     text-align: center;
 }
 
+#lit img{
+    padding-left: 42%;
+    padding-bottom: 2em;
+    width: 4em;
+    height: 4em;
+
+}
+
+@media screen and (min-width:60em) {
+    #lit img{
+        padding-left: 47.5%;
+    }
+}
+
+@media screen and (min-width:750px) {
+    #lit img{
+        padding-left: 47%;
+    }
+}
 
 /*
 video styling
