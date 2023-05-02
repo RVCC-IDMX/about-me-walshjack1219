@@ -65,7 +65,7 @@ footer {
 #hobbies ul{
     font-size: 2rem;
     font-family: "tilt warp";
-    margin-left: 7rem;
+    margin-left: 4rem;
 }
 
 #gallery {
@@ -209,7 +209,7 @@ body{
 }
 
 #iWant{
-    font-size: 2em;
+    font-size: 1.5rem;
     font-family: "tilt warp";
 }
 
@@ -248,4 +248,8 @@ body{
 
 #bioSection h2{
     font-size: 2rem;
+}
+
+#bioSection h1{
+    font-size: 4rem ;
 }
