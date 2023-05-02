@@ -39,6 +39,7 @@ main{
 .logo{
     display: flex;
     align-items: center;
+    margin-left: 2rem;
 }
 
 .logo img{
@@ -109,6 +110,11 @@ such that no text wraps
     }
 
 }
+
+
+/*
+hamburger fiasco
+*/
 
 .navToggle{
     position: absolute;

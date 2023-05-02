@@ -1,3 +1,8 @@
+/*
+body styling
+*/
+
+
 body {
     font-family: "tilt warp";
     background-color: #333;
@@ -11,9 +16,10 @@ h2 {
     font-size: 3em;
 }
 
-header {
-    text-align: center;
-}
+/*
+hero styling
+*/
+
 
 #hero {
     font-family: "tilt neon";
@@ -25,8 +31,30 @@ header {
 
 #hero img {
 
-    width: 300px
+    width: 300px;
+    background-color: #2394EB;
+    border-radius: 10px;
+
 }
+
+#profileCaption{
+    font-family: "tilt warp";
+    padding-top: 1em;
+    padding-bottom: 3em;
+    text-align: center;
+}
+
+#profileCaption{
+    text-align: center;
+    margin-right: 1rem;
+}
+
+
+
+/*
+Bio Styling
+*/
+
 
 #bio {
     font-family: "tilt neon";
@@ -36,20 +64,33 @@ header {
 
 }
 
-#song {
-    background-color: #2394EB;
-    color: whitesmoke;
-    padding: 15px;
+#iWant{
+    font-size: 1.5rem;
+    font-family: "tilt warp";
+}
+
+#bio{
     text-align: center;
+    padding-bottom: 3em;
 }
 
-footer {
-
-    font-family: "tilt neon";
-    color: whitesmoke;
-    background-color: #333;
-    padding: 15px;
+#bio p{
+    padding-left: 4em;
+    padding-right: 4em;
+   
 }
+
+#bioSection h2{
+    font-size: 2rem;
+}
+
+#bioSection h1{
+    font-size: 4rem ;
+}
+
+/*
+hobbies styling
+*/
 
 #hobbies {
     font-family: "tilt neon";
@@ -67,6 +108,10 @@ footer {
     font-family: "tilt warp";
     margin-left: 4rem;
 }
+
+/*
+gallery styling
+*/
 
 #gallery {
 
@@ -121,6 +166,24 @@ footer {
 
 }
 
+/*
+song styling
+*/
+
+#song {
+    background-color: #2394EB;
+    color: whitesmoke;
+    padding: 15px;
+    text-align: center;
+}
+
+
+
+/*
+blog styling
+*/
+
+
 #lit{
     background-color: whitesmoke;
     color: #333;
@@ -138,6 +201,12 @@ footer {
     text-align: center;
 }
 
+
+/*
+video styling
+*/
+
+
 #video{
     padding-top: 5em;
     text-align: center;
@@ -145,6 +214,27 @@ footer {
     padding-bottom: 5em;
     color: whitesmoke;
 }
+
+
+#video iframe{
+    max-width: 100%;
+}
+
+#video figcaption{
+    font-size: 1em;
+    padding-top: 1em;
+}
+
+#video figcaption{
+    padding-left: 2rem;
+    padding-right: 2rem;
+    padding-top: 2rem;
+}
+
+
+/*
+form styling
+*/
 
 #formHeadder{
     text-align: center;
@@ -204,52 +294,14 @@ legend{
     outline: none;
 }
 
-body{
-    border: 8px solid #333;
-}
+/*
+footer styling
+*/
 
-#iWant{
-    font-size: 1.5rem;
-    font-family: "tilt warp";
-}
+footer {
 
-#bio{
-    text-align: center;
-    padding-bottom: 3em;
-}
-
-#bio p{
-    padding-left: 4em;
-    padding-right: 4em;
-   
-}
-
-#video iframe{
-    max-width: 100%;
-}
-
-#video figcaption{
-    font-size: 1em;
-    padding-top: 1em;
-}
-
-#profileCaption{
-    font-family: "tilt warp";
-    padding-top: 1em;
-    padding-bottom: 3em;
-    text-align: center;
-}
-
-#profileCaption{
-    text-align: center;
-    margin-right: 1rem;
-}
-
-
-#bioSection h2{
-    font-size: 2rem;
-}
-
-#bioSection h1{
-    font-size: 4rem ;
+    font-family: "tilt neon";
+    color: whitesmoke;
+    background-color: #333;
+    padding: 15px;
 }
