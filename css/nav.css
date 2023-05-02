@@ -109,3 +109,65 @@ such that no text wraps
     }
 
 }
+
+.navToggle{
+    position: absolute;
+    cursor: pointer;
+    margin: 0rem 1rem;
+    right: 0;
+}
+
+svg{
+    width: 3rem;
+    height: 3rem;
+}
+
+.menu{
+    margin-top: 1.5rem;
+    margin-right: 1rem;
+}
+
+.navCheckbox{
+    display: none;
+}
+
+.close{
+    margin-top: 1.5rem;
+    margin-right: 1rem;
+    display:none;
+}
+
+.navbar-links ul{
+    display: none;
+}
+
+.navCheckbox:checked ~ .navbar-links ul{
+    display: block;
+}
+
+.navCheckbox:checked ~ label.navToggle .close{
+    display: block;
+}
+
+.navCheckbox:checked ~ label.navToggle .menu{
+    display: none;
+}
+
+
+
+@media only screen and (min-width:60rem) {
+
+    .navToggle{
+        display: none;
+    }
+
+    .navbar-links ul{
+        display: flex;
+        flex-direction: row;
+    }
+
+    .logo h1{
+        display: block;
+        font-size: 2rem;
+    }
+}

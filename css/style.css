@@ -37,7 +37,7 @@ header {
 }
 
 #song {
-    background-color: #333;
+    background-color: #2394EB;
     color: whitesmoke;
     padding: 15px;
     text-align: center;
@@ -54,17 +54,24 @@ footer {
 #hobbies {
     font-family: "tilt neon";
     color: whitesmoke;
-    background-color: #333;
+    background-color: #2394EB;
     padding: 15px;
     display: flex;
     flex-direction: column;
     align-items: center;
+    padding-bottom: 2em;
+}
+
+#hobbies ul{
+    font-size: 2rem;
+    font-family: "tilt warp";
+    margin-left: 7rem;
 }
 
 #gallery {
 
     text-align: center;
-    background-color: #2394EB;
+    background-color: #333;
     color: whitesmoke;
     padding-top: 1em;
 
@@ -115,8 +122,8 @@ footer {
 }
 
 #lit{
-    background-color: #2394EB;
-    color: whitesmoke;
+    background-color: whitesmoke;
+    color: #333;
     padding-top: 3em;
     padding-bottom: 2em;
 }
@@ -134,8 +141,8 @@ footer {
 #video{
     padding-top: 5em;
     text-align: center;
-    background-color: #333;
-    padding-bottom: 7em;
+    background-color: #2394EB;
+    padding-bottom: 5em;
     color: whitesmoke;
 }
 
@@ -224,4 +231,21 @@ body{
 #video figcaption{
     font-size: 1em;
     padding-top: 1em;
+}
+
+#profileCaption{
+    font-family: "tilt warp";
+    padding-top: 1em;
+    padding-bottom: 3em;
+    text-align: center;
+}
+
+#profileCaption{
+    text-align: center;
+    margin-right: 1rem;
+}
+
+
+#bioSection h2{
+    font-size: 2rem;
 }
