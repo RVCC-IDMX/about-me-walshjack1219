@@ -10,7 +10,7 @@ This site's purpose was to test the skills I learned in class and put everything
 
 In this project, the theme was a light blue and gray contrast with white and dark blue lettering depending on the background of the words. The colors I used for this site were #A0CFE6 for my light blue background, #333 for my dark gray borders and Nav bar, #f5f5f5 for my white lettering, and #2394EB for my darker blues. 
 
-All of the content that wasn’t mine on the site came from one of my favorite bands, Mastodon. Here is a link to their website https://www.mastodonrocks.com/ and a link to their youtube channel where my video came from https://www.youtube.com/@mastodon 
+All of the content that wasn’t mine on the site mostly came from one of my favorite bands, Mastodon. Here is a link to their website https://www.mastodonrocks.com/ and a link to their youtube channel where my video came from https://www.youtube.com/@mastodon. For the blog about the hamburger icon, I got the info from this wikipedia article. https://en.wikipedia.org/wiki/Hamburger_button#:~:text=The%20icon%20was%20originally%20designed,the%20resulting%20displayed%20menu%20list.
 
 All rights reserved. 
 
